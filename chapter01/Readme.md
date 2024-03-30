@@ -1,13 +1,15 @@
 fmt.Print() prints whatever it gets to the terminal without adding any space or newlines unless it’s unequivocally coded.
 
-```package main
+```
+package main
 
 import "fmt"
 
 func main() {
     fmt.Print("Hello")
     fmt.Print("World")
-}```
+}
+```
 
 fmt.Printf() provides custom formatting of input strings using one or more verbs and then prints the formatted string to the terminal without appending any space or newlines (unless explicitly coded).
 
@@ -24,14 +26,14 @@ func main() {
 }
 ```
 
-    %v represents the named value in its default format
-    %T represents the type of the value
-    %d expects value to be an integer type of base 10
-    %b expects value to be an integer type of base 2
-    %s the bytes of string or slice
-    %f expects value to have a float type
+%v represents the named value in its default format
+%T represents the type of the value
+%d expects value to be an integer type of base 10
+%b expects value to be an integer type of base 2
+%s the bytes of string or slice
+%f expects value to have a float type
 
-fmt.Println() is similar to fmt.Print(), the difference being that it adds spaces between arguments and appends a newline at the end.
+fmt.Println() is similar to fmt.Print(), the difference being that it adds spaces between arguments and appends a new line at the end.
 
 ```
 package main
